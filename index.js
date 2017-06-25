@@ -12,5 +12,5 @@ app.listen(port, () => {
 
 app.get('/', (req, res) => {
   //res.send('<h1>Hello Express!</h1>');
-  res.sendFile(path.join(__dirname, 'frontend', 'index.html'));
+  res.sendFile(path.join(__dirname, 'frontend1', 'index.html'));
 });
