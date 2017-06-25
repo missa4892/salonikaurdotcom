@@ -1,0 +1,20 @@
+{
+  "name": "salonikaurdotcom",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.14.0",
+    "nodemon": "^1.10.2"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": "6.10.0"
+  },
+  "author": "salonikaur",
+  "license": "ISC"
+}
