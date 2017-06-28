@@ -12,5 +12,5 @@ app.listen(port, () => {
 
 app.get('/', (req, res) => {
   //res.send('<h1>Hello Express!</h1>');
-  res.sendFile(path.resolve('index.js'));
+  res.sendFile(path.resolve('node_modules/send/index.js'));
 });
